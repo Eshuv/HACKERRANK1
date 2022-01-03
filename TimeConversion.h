@@ -6,10 +6,10 @@ char* timeCoversion(char arr[])
 {
 	if (arr[8] == 'P' && arr[9] == 'M')
 	{
-		if (s[0] != '1' || s[1] != '2')
+		if (arr[0] != '1' || arr[1] != '2')
 		{
-			s[0] = s[0] + 1;
-			s[1] = s[1] + 2;
+			arr[0] = arr[0] + 1;
+			arr[1] = arr[1] + 2;
 		}
 	}
 	else
